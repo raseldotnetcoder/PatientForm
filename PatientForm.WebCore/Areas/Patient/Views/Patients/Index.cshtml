@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<PatientForm.ViewModel.PatientInfoViewModel>
+@using PatientForm.Core.Enums
 
 @{
     ViewData["Title"] = "Index";
@@ -21,9 +22,10 @@
     <tbody>
         @foreach (var item in Model)
         {
+            string epilepsy = (item.Epilepsy == (int)Epilepsy.Yes) ? Epilepsy.Yes.ToString() : Epilepsy.No.ToString();
             <tr>
                 <td>@Html.DisplayFor(modelItem => item.PatientName, new { @class = "patient-name" })</td>
-                <td>@Html.DisplayFor(modelItem => item.Epilepsy)</td>
+                <td>@Html.DisplayFor(modelItem => epilepsy)</td>
                 <td>@Html.DisplayFor(modelItem => item.DiseaseName)</td>
                 <td>
                     <a asp-action="Edit" class="btn btn-sm btn-success" asp-route-id="@item.PatientId">Edit</a> |

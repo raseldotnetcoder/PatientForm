@@ -6653,11 +6653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DRIVE\\Test V1\\PatientForm\\Shared\\PatientForm.ViewModel\\PatientForm.ViewModel.csproj",
+      "projectUniqueName": "D:\\DRIVE\\Test\\PatientForm\\Shared\\PatientForm.ViewModel\\PatientForm.ViewModel.csproj",
       "projectName": "PatientForm.ViewModel",
-      "projectPath": "D:\\DRIVE\\Test V1\\PatientForm\\Shared\\PatientForm.ViewModel\\PatientForm.ViewModel.csproj",
+      "projectPath": "D:\\DRIVE\\Test\\PatientForm\\Shared\\PatientForm.ViewModel\\PatientForm.ViewModel.csproj",
       "packagesPath": "C:\\Users\\rasel\\.nuget\\packages\\",
-      "outputPath": "D:\\DRIVE\\Test V1\\PatientForm\\Shared\\PatientForm.ViewModel\\obj\\",
+      "outputPath": "D:\\DRIVE\\Test\\PatientForm\\Shared\\PatientForm.ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6679,8 +6679,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\DRIVE\\Test V1\\PatientForm\\Shared\\PatientForm.Core\\PatientForm.Core.csproj": {
-              "projectPath": "D:\\DRIVE\\Test V1\\PatientForm\\Shared\\PatientForm.Core\\PatientForm.Core.csproj"
+            "D:\\DRIVE\\Test\\PatientForm\\Shared\\PatientForm.Core\\PatientForm.Core.csproj": {
+              "projectPath": "D:\\DRIVE\\Test\\PatientForm\\Shared\\PatientForm.Core\\PatientForm.Core.csproj"
             }
           }
         }

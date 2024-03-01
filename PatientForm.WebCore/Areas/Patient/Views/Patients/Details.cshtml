@@ -1,7 +1,9 @@
 ﻿@model PatientForm.ViewModel.PatientInfoViewModel
+@using PatientForm.Core.Enums
 
 @{
     ViewData["Title"] = "Details";
+    string epilepsy = (Model.Epilepsy == (int)Epilepsy.Yes) ? Epilepsy.Yes.ToString() : Epilepsy.No.ToString();
 }
 
 <h1>Patient Details</h1>
@@ -14,7 +16,7 @@
                 <dt class="col-sm-4">@Html.DisplayNameFor(model => model.PatientName)</dt>
                 <dd class="col-sm-8">@Html.DisplayFor(model => model.PatientName)</dd>
                 <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Epilepsy)</dt>
-                <dd class="col-sm-8">@Html.DisplayFor(model => model.Epilepsy)</dd>
+                <dd class="col-sm-8">@Html.DisplayFor(model => epilepsy)</dd>
                 <dt class="col-sm-4">@Html.DisplayNameFor(model => model.DiseaseId)</dt>
                 <dd class="col-sm-8">@Html.DisplayFor(model => model.DiseaseName)</dd>
             </dl>

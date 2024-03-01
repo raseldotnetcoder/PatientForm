@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientForm.ViewModel", "Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientForm.EntityModel", "Shared\PatientForm.EntityModel\PatientForm.EntityModel.csproj", "{50F2686A-C446-4186-86E6-0C87FD71FB3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientForm.Core", "Shared\PatientForm.Core\PatientForm.Core.csproj", "{9B827169-AD41-47FC-A78A-EDCAD5D44E82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{50F2686A-C446-4186-86E6-0C87FD71FB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50F2686A-C446-4186-86E6-0C87FD71FB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50F2686A-C446-4186-86E6-0C87FD71FB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B827169-AD41-47FC-A78A-EDCAD5D44E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B827169-AD41-47FC-A78A-EDCAD5D44E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B827169-AD41-47FC-A78A-EDCAD5D44E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B827169-AD41-47FC-A78A-EDCAD5D44E82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3C729B96-1D11-4A5E-A5DD-743BCAE5101D} = {81727237-985F-4C34-9577-BD10D95AA6B1}
 		{50F2686A-C446-4186-86E6-0C87FD71FB3F} = {81727237-985F-4C34-9577-BD10D95AA6B1}
+		{9B827169-AD41-47FC-A78A-EDCAD5D44E82} = {81727237-985F-4C34-9577-BD10D95AA6B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A3E6A4F-0051-4BF6-8243-85EE04ED6477}

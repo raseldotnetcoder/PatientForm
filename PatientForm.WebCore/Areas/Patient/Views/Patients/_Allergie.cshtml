@@ -1,0 +1,19 @@
+﻿@model PatientForm.ViewModel.PatientInfoViewModel
+
+<div class="row form-group mb-2">
+    <div class="col-md-3 text-end">@Html.DisplayNameFor(x => x.LeftAllergieList)<span class="text-danger"> *</span></div>
+    <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-5">
+                <select id="LeftAllergieList" asp-for="LeftAllergieList" asp-items="Model.LeftAllergieList" multiple class="w-100"></select>
+            </div>
+            <div class="col-md-2">
+                <a class="btn btn-outline-secondary text-black w-100 mb-2 add-allergies-to-selected-list">Add ></a>
+                <a class="btn btn-outline-secondary text-black w-100 remove-allergies-to-selected-list">< Remove</a>
+            </div>
+            <div class="col-md-5">
+                <select id="RightAllergieList" asp-for="RightAllergieList" asp-items="Model.RightAllergieList" multiple class="w-100"></select>
+            </div>
+        </div>
+    </div>
+</div>

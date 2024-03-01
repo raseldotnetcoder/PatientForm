@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PatientForm.WebCore
 build_property.RootNamespace = PatientForm.WebCore
@@ -14,9 +22,49 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\DRIVE\Test V1\PatientForm\PatientForm.WebCore
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Patients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xQYXRpZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Patients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xQYXRpZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Patients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xQYXRpZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Patients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xQYXRpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Patients/_Allergie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xQYXRpZW50c1xfQWxsZXJnaWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Patients/_Ncd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xQYXRpZW50c1xfTmNkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -41,6 +89,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Areas/Patient/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGF0aWVudFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-dj8iq8bwdt
 
 [D:/DRIVE/Test V1/PatientForm/PatientForm.WebCore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

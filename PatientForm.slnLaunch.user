@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "PatientForm.WebCore\\PatientForm.WebCore.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Name": "PatientForm.WebApi\\PatientForm.WebApi.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\bin\Debug\net8.0\PatientForm.Core.exe
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\bin\Debug\net8.0\PatientForm.Core.deps.json
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\bin\Debug\net8.0\PatientForm.Core.runtimeconfig.json
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\bin\Debug\net8.0\PatientForm.Core.dll
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\bin\Debug\net8.0\PatientForm.Core.pdb
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\PatientForm.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\PatientForm.Core.AssemblyInfoInputs.cache
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\PatientForm.Core.AssemblyInfo.cs
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\PatientForm.Core.csproj.CoreCompileInputs.cache
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\PatientForm.Core.sourcelink.json
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\PatientForm.Core.dll
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\refint\PatientForm.Core.dll
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\PatientForm.Core.pdb
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\PatientForm.Core.genruntimeconfig.cache
+D:\DRIVE\Test V1\PatientForm\Shared\PatientForm.Core\obj\Debug\net8.0\ref\PatientForm.Core.dll

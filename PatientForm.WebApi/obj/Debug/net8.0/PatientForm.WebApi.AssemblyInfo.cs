@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatientForm.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4afac73ef3ed9609607faed1dc32d0e301724e05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bb9ce37059f7a5a980fa399a2627ada81db6ffc")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatientForm.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatientForm.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

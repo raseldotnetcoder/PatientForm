@@ -1,0 +1,55 @@
+﻿@model PatientForm.ViewModel.PatientInfoViewModel
+@using PatientForm.Core.Enums;
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 style="color: #0A90F4;" class="text-center pb-3">PATIENT FORM</h1>
+
+<div class="p-5" style="border: 1px solid #0A90F4;">
+    <form asp-action="Edit" id="patient-info-form-edit">
+        <input type="hidden" asp-for="PatientId" id="patient_id" />
+        <div class="row form-group mb-2">
+            <div class="col-md-3 text-end fw-bold">@Html.DisplayNameFor(x => x.PatientName)<span class="text-danger"> *</span></div>
+            <div class="col-md-9">
+                @Html.EditorFor(x => x.PatientName, new { htmlAttributes = new { @class = "form-control", id = "patient_name", required = "required" } })
+                @Html.ValidationMessageFor(x => x.PatientName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="row form-group mb-2">
+            <div class="col-md-3 text-end fw-bold">@Html.DisplayNameFor(x => x.DiseaseId)<span class="text-danger"> *</span></div>
+            <div class="col-md-9">
+                @Html.DropDownListFor(x => x.DiseaseId, new SelectList(Model.DiseaseList, "DiseaseId", "DiseaseName"), "Select Disease", new { @class = "form-control", id = "disease_id", required = "required" })
+                @Html.ValidationMessageFor(x => x.DiseaseName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="row form-group mb-2">
+            <div class="col-md-3 text-end">@Html.DisplayNameFor(x => x.Epilepsy)<span class="text-danger"> *</span></div>
+            <div class="col-md-9">
+                @Html.DropDownListFor(x => x.EpilepsyList, Html.GetEnumSelectList<Epilepsy>(), new { @class = "form-control", id = "epilepsy", required = "required" })
+                @Html.ValidationMessageFor(x => x.EpilepsyList, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div id="ncd-listbox"><partial name="~/Areas/Patient/Views/Patients/_Ncd.cshtml" /></div>
+        <div id="allergie-listbox"><partial name="~/Areas/Patient/Views/Patients/_Allergie.cshtml" /></div>
+
+        <div class="row form-group">
+            <div class="col-md-3"></div>
+            <div class="col-md-9 text-center">
+                <input type="submit" value="Save" class="btn btn-primary fw-bold ps-4 pe-4 mt-3" style="background-color: #0A90F4;" />
+            </div>
+        </div>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-outline-secondary mt-2">< Back to List</a>
+</div>
+
+@section Scripts {
+    <script>
+        $Patient.BindPatientEvents();
+    </script>
+}

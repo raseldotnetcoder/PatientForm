@@ -1,0 +1,50 @@
+﻿@model PatientForm.ViewModel.PatientInfoViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Patient Details</h1>
+
+<div>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.PatientName)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.PatientName)</dd>
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Epilepsy)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Epilepsy)</dd>
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.DiseaseId)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.DiseaseName)</dd>
+            </dl>
+        </div>
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-12">@Html.DisplayNameFor(model => model.LeftNcdList)</dt>
+                @foreach (var item in Model.RightNcdList)
+                {
+                    <dd class="col-sm-12">
+                        @Html.DisplayFor(model => item.Text)
+                    </dd>
+                }
+            </dl>
+
+            <dl class="row">
+                <dt class="col-sm-12">
+                    @Html.DisplayNameFor(model => model.LeftAllergieList)
+                </dt>
+                @foreach (var item in Model.RightAllergieList)
+                {
+                    <dd class="col-sm-12">
+                        @Html.DisplayFor(model => item.Text)
+                    </dd>
+                }
+            </dl>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-outline-success mt-2" asp-route-id="@Model?.PatientId">Edit</a> |
+    <a asp-action="Index" class="btn btn-outline-secondary mt-2">Back to List</a>
+</div>

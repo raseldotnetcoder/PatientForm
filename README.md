@@ -19,6 +19,6 @@ In this project front-end is developed using MVC Core 8.0, back-end is developed
 # Quickstart
 - To run project Right click on the solution and select properties (Alt + Enter)
 - Select Multiple startup projects
-- Start PatientForm.WebApi and PatientForm.WebCore from the Action dropdown
+- Start PatientForm.WebApi and PatientForm.WebCore from the Action dropdown with Debug Target Https
 - ![image](https://github.com/raseldotnetcoder/PatientForm/assets/115859775/d68219b7-4b45-49b6-b31a-db4658ff15fc)
 

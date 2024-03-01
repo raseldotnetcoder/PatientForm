@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rkkiFtgZ2+JmQBbJslQT8Dokg3f2DQfD7Xg7+KPHUwY=",
+  "Source": "PatientForm.WebApi",
+  "BasePath": "_content/PatientForm.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

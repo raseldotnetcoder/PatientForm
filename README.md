@@ -11,7 +11,7 @@ In this project front-end is developed using MVC Core 8.0, back-end is developed
 - Open project in IDE and run
 - Change the ConnectionStrings (DB) in appsettings.json of PatientForm.WebApi
 - From the top menu select - Tool > NuGet Package Manager > Package Manager Console
-- Select PatientForm.WebCore as startup project
+- Select PatientForm.WebApi as startup project
 - Select PatientForm.EntityModel as DefaultProject in Package Manager Console
 - Write below Command one by one
 - ADD-MIGRATION INITIAL

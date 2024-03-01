@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientForm.WebCore", "Pati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientForm.WebApi", "PatientForm.WebApi\PatientForm.WebApi.csproj", "{70801FB6-B59F-4D69-8ACD-EE76F0EAB66A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{81727237-985F-4C34-9577-BD10D95AA6B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientForm.ViewModel", "Shared\PatientForm.ViewModel\PatientForm.ViewModel.csproj", "{3C729B96-1D11-4A5E-A5DD-743BCAE5101D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientForm.EntityModel", "Shared\PatientForm.EntityModel\PatientForm.EntityModel.csproj", "{50F2686A-C446-4186-86E6-0C87FD71FB3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,21 @@ Global
 		{70801FB6-B59F-4D69-8ACD-EE76F0EAB66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70801FB6-B59F-4D69-8ACD-EE76F0EAB66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70801FB6-B59F-4D69-8ACD-EE76F0EAB66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C729B96-1D11-4A5E-A5DD-743BCAE5101D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C729B96-1D11-4A5E-A5DD-743BCAE5101D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C729B96-1D11-4A5E-A5DD-743BCAE5101D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C729B96-1D11-4A5E-A5DD-743BCAE5101D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F2686A-C446-4186-86E6-0C87FD71FB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F2686A-C446-4186-86E6-0C87FD71FB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F2686A-C446-4186-86E6-0C87FD71FB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F2686A-C446-4186-86E6-0C87FD71FB3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C729B96-1D11-4A5E-A5DD-743BCAE5101D} = {81727237-985F-4C34-9577-BD10D95AA6B1}
+		{50F2686A-C446-4186-86E6-0C87FD71FB3F} = {81727237-985F-4C34-9577-BD10D95AA6B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A3E6A4F-0051-4BF6-8243-85EE04ED6477}
